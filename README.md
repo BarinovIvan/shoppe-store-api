@@ -1,26 +1,24 @@
-# FakeStoreAPI
+# Shoppe API
 
-[FakeStoreAPI](https://fakestoreapi.com) is a free online REST API that you can use whenever you need Pseudo-real data for
-your e-commerce or shopping website without running any server-side code.
-It's awesome for teaching purposes, sample codes, tests and etc.
+Shoppe API is an educational REST API built with Node.js (Express) and MongoDB. It serves sample JSON for products,
+carts, users, and a simple login flow. Run it locally or on your own server; the HTTP examples below use the public
+base URL **https://shoppeapi.com** (replace it with your own origin when you self-host).
 
-You can visit in detail docs in [FakeStoreAPI](https://fakestoreapi.com) for more information.
+After `npm start`, open the built-in **Docs** page at `/docs` for more copy-paste examples.
 
 ## Why?
 
-When I wanted to design a shopping website prototype and needed fake data, I had to
-use lorem ipsum data or create a JSON file from the base. I didn't find any online free web service
-to return semi-real shop data instead of lorem ipsum data.
-so I decided to create this simple web service with NodeJs(express) and MongoDB as a database.
+Useful when you need realistic-looking shop data for prototypes, classroom exercises, or automated tests without wiring
+up a full backend or hand-authoring large fixtures.
 
 ## Resources
 
 There are 4 main resources need in shopping prototypes:
 
-- Products https://fakestoreapi.com/products
-- Carts https://fakestoreapi.com/carts
-- Users https://fakestoreapi.com/users
-- Login Token https://fakestoreapi.com/auth/login
+- Products https://shoppeapi.com/products
+- Carts https://shoppeapi.com/carts
+- Users https://shoppeapi.com/users
+- Login Token https://shoppeapi.com/auth/login
 
 ### New! "Rating" (includes rate and count) has been added to each product object!
 
@@ -31,7 +29,7 @@ you can fetch data with any kind of methods you know(fetch API, Axios, jquery aj
 ### Get all products
 
 ```js
-fetch("https://fakestoreapi.com/products")
+fetch("https://shoppeapi.com/products")
   .then((res) => res.json())
   .then((json) => console.log(json));
 ```
@@ -39,7 +37,7 @@ fetch("https://fakestoreapi.com/products")
 ### Get a single product
 
 ```js
-fetch("https://fakestoreapi.com/products/1")
+fetch("https://shoppeapi.com/products/1")
   .then((res) => res.json())
   .then((json) => console.log(json));
 ```
@@ -47,7 +45,7 @@ fetch("https://fakestoreapi.com/products/1")
 ### Add new product
 
 ```js
-fetch("https://fakestoreapi.com/products", {
+fetch("https://shoppeapi.com/products", {
   method: "POST",
   body: JSON.stringify({
     title: "test product",
@@ -72,12 +70,12 @@ fetch("https://fakestoreapi.com/products", {
 */
 ```
 
-Note: Posted data will not really insert into the database and just return a fake id.
+Note: Posted data will not really insert into the database and just return a stub id.
 
 ### Updating a product
 
 ```js
-fetch("https://fakestoreapi.com/products/7", {
+fetch("https://shoppeapi.com/products/7", {
   method: "PUT",
   body: JSON.stringify({
     title: "test product",
@@ -103,7 +101,7 @@ fetch("https://fakestoreapi.com/products/7", {
 ```
 
 ```js
-fetch("https://fakestoreapi.com/products/8", {
+fetch("https://shoppeapi.com/products/8", {
   method: "PATCH",
   body: JSON.stringify({
     title: "test product",
@@ -133,7 +131,7 @@ Note: Edited data will not really be updated into the database.
 ### Deleting a product
 
 ```js
-fetch("https://fakestoreapi.com/products/8", {
+fetch("https://shoppeapi.com/products/8", {
   method: "DELETE",
 });
 ```
@@ -145,8 +143,8 @@ Nothing will delete on the database.
 You can use query string to limit results or sort by asc|desc
 
 ```js
-// Will return all the posts that belong to the first user
-fetch("https://fakestoreapi.com/products?limit=3&sort=desc")
+// Example: limit and sort products
+fetch("https://shoppeapi.com/products?limit=3&sort=desc")
   .then((res) => res.json())
   .then((json) => console.log(json));
 ```

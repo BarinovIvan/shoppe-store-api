@@ -96,24 +96,6 @@ footer {
     p {
         font-weight: 300;
     }
-
-    a {
-        color: #3a3134;
-        font-weight: 300;
-
-        &.donate {
-            color: $primary;
-
-            img {
-                width: 25px;
-                margin-bottom: -5px;
-            }
-        }
-    }
-}
-
-.heart {
-    color: #a71e22;
 }
 
 .loading {

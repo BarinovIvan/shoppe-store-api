@@ -1,6 +1,6 @@
 {
-    "name": "Fake Store",
-    "short_name": "Fake Store",
+    "name": "Shoppe API",
+    "short_name": "Shoppe API",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",

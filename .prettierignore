@@ -1,0 +1,6 @@
+node_modules
+public
+mongo_data
+coverage
+package-lock.json
+*.md

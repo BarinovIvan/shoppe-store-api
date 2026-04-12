@@ -3,12 +3,11 @@
 <!-- intro -->
 <section class="row">
     <div class="col-md-6 intro">
-        <h1>Fake Store API</h1>
-        <p> Fake store rest API for your e-commerce or shopping website prototype</p>
+        <h1>Shoppe API</h1>
+        <p>Educational REST API with sample products, carts, and users for storefront prototypes</p>
         <div class="btns">
-            <a class="btn btn-large btn-primary" target="_blank" rel="noopener noreferrer"
-                href="https://github.com/keikaavousi/fake-store-api">View on GitHub <img src="/icons/github.svg"></a>
-            <a class="btn btn-large btn-secondary" href="/docs">Read Docs <img src="/icons/book.svg"></a>
+            <a class="btn btn-large btn-primary" href="/docs">Read the docs <img src="/icons/book.svg"></a>
+            <a class="btn btn-large btn-secondary" href="#try">Example request</a>
         </div>
     </div>
     <div class="col-md-6 intro-img">
@@ -22,9 +21,8 @@
     <h3 class="center-align col-md-12">Get tired of Lorem ipsum data?!</h3>
     <h3 class="center-align col-md-12">Didn't you find any free e-commerce API?!</h3>
     <p class="center-align">
-        fakeStoreApi is a free online REST API that you can use whenever you need Pseudo-real data for your e-commerce
-        or shopping website without running any server-side code. It's awesome for teaching purposes, sample codes,
-        tests, etc.
+        Shoppe API is a self-hosted JSON service for storefront demos: products, carts, users, and a simple auth example.
+        Handy for lessons, UI mocks, and automated tests when you control the server yourself.
     </p>
 </section>
 
@@ -32,7 +30,7 @@
 <!-- tryit -->
 <section id="try" class="row">
     <h2 class="heading">Example Code</h2>
-    <pre><code>fetch('https://fakestoreapi.com/products/1')
+    <pre><code>fetch('https://shoppeapi.com/products/1')
             .then(res=>res.json())
             .then(json=>console.log(json))</code></pre>
     <button id="fetch_btn" class="btn btn-primary">Try it</button>
@@ -80,7 +78,7 @@
 
     document.getElementById("fetch_btn").addEventListener('click', function () {
         wrapper.appendChild(loading)
-        fetch('https://fakestoreapi.com/products/1')
+        fetch('https://shoppeapi.com/products/1')
             .then(res => res.json())
             .then(json => {
                 wrapper.textContent = JSON.stringify(json, undefined, 2)

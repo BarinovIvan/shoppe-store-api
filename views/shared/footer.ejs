@@ -1,11 +1,7 @@
 </main>
 </div>
 <footer>
-    <p>Made with <span class="heart">&hearts;</span> by <a target="_blank" rel="noopener noreferrer"
-            href="https://keikaavousi.com">MohammadReza Keikavousi</a></p>
-    <a href="https://donate.keikaavousi.com" target="_blank" class="donate">
-        <img src='/icons/coffee.svg' />
-        Buy me a coffee</a>
+    <p>Shoppe API</p>
 </footer>
 
 
@@ -32,7 +28,9 @@
 
             let hash = links[i].hash
             let targetAnchor = document.querySelector(hash)
-            console.log(hash, targetAnchor.offsetTop, window.scrollY)
+            if (!targetAnchor) {
+                return
+            }
 
             window.scrollTo({
                 top: targetAnchor.offsetTop + 620,
@@ -42,11 +40,6 @@
         })
     }
 
-    const close_alert = document.getElementById('close_alert')
-    const donate_alert = document.getElementById('donate_alert')
-    close_alert.addEventListener('click', () => {
-        donate_alert.style.display = 'none'
-    })
 </script>
 
 </body>

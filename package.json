@@ -1,11 +1,17 @@
 {
   "name": "api",
   "version": "1.0.0",
-  "description": "FakeStoreAPI is a free online REST API that provides you fake e-commerce JSON data",
+  "description": "Shoppe API — educational REST API with sample e-commerce JSON for lessons and prototypes",
   "main": "server.js",
   "scripts": {
     "test": "jest",
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "check": "eslint . && prettier --check ."
   },
   "author": "",
   "license": "ISC",
@@ -19,9 +25,14 @@
     "mongoose": "^5.9.6"
   },
   "devDependencies": {
+    "@eslint/js": "^9.15.0",
     "ejs": "^3.1.6",
+    "eslint": "^9.15.0",
+    "eslint-config-prettier": "^9.1.0",
+    "globals": "^15.12.0",
     "jest": "^27.0.6",
     "nodemon": "^2.0.9",
+    "prettier": "^3.4.2",
     "supertest": "^6.1.3"
   }
 }

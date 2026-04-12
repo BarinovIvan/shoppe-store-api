@@ -171,9 +171,8 @@ GET:
 - /products/1 (get specific product based on id)
 - /products?limit=5 (limit return results )
 - /products?sort=desc (asc|desc get products in ascending or descending orders (default to asc))
-- /products/products/categories (get all categories)
-- /products/category/jewelery (get all products in specific category)
-- /products/category/jewelery?sort=desc (asc|desc get products in ascending or descending orders (default to asc))
+- /products?category=rings (get all products in a category; combine with limit and sort, e.g. `?category=chains&sort=desc`)
+- /products/categories (get all categories as `{ "categories": [{ "id", "name" }, ...] }`)
 
 POST:
 

@@ -28,6 +28,11 @@ module.exports = (req, res, next) => {
     return;
   }
 
+  if (req.path === '/docs') {
+    next();
+    return;
+  }
+
   const nameRaw =
     (process.env.STUDENT_ACCESS_COOKIE_NAME || 'authorization').trim() || 'authorization';
   const nameLower = nameRaw.toLowerCase();
@@ -49,6 +54,12 @@ module.exports = (req, res, next) => {
   }
 
   res.status(403).json({
-  	message: 'Доступ запрещён: Cookie ' + nameLower + '=' + expected + ' или заголовок Authorization: ' + expected,
+    message:
+      'Доступ запрещён: Cookie ' +
+      nameLower +
+      '=' +
+      expected +
+      ' или заголовок Authorization: ' +
+      expected,
   });
 };

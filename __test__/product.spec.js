@@ -8,14 +8,37 @@ describe('Testing products API', () => {
   });
 
   it('all product', async () => {
-    const response = await supertest(app).set('Cookie', 'authorization=amigo').get('/products');
+    const response = await supertest(app).get('/products').set('Cookie', 'authorization=amigo');
     expect(response.status).toBe(200);
     console.log('get', response.body);
     expect(response.body).not.toStrictEqual([]);
   });
 
+  it('get categories returns objects with id and name', async () => {
+    const response = await supertest(app)
+      .get('/products/categories')
+      .set('Cookie', 'authorization=amigo');
+    expect(response.status).toBe(200);
+    expect(response.body).toEqual(
+      expect.objectContaining({
+        categories: expect.any(Array),
+      })
+    );
+    for (const item of response.body.categories) {
+      expect(item).toEqual(
+        expect.objectContaining({ id: expect.any(Number), name: expect.any(String) })
+      );
+    }
+  });
+
   it('get a single product', async () => {
-    const response = await supertest(app).set('Cookie', 'authorization=amigo').get('/products/1');
+    const list = await supertest(app).get('/products?limit=1').set('Cookie', 'authorization=amigo');
+    expect(list.status).toBe(200);
+    expect(list.body[0]).toBeDefined();
+    const id = list.body[0].id;
+    const response = await supertest(app)
+      .get(`/products/${id}`)
+      .set('Cookie', 'authorization=amigo');
     expect(response.status).toBe(200);
     console.log('get by id', response.body);
     expect(response.body).not.toStrictEqual({});
@@ -24,8 +47,8 @@ describe('Testing products API', () => {
 
   it('get products in a category', async () => {
     const response = await supertest(app)
-      .set('Cookie', 'authorization=amigo')
-      .get('/products/category/jewelery');
+      .get('/products?category=chains')
+      .set('Cookie', 'authorization=amigo');
     expect(response.status).toBe(200);
     console.log('get by category', response.body);
     expect(response.body).not.toStrictEqual([]);
@@ -33,8 +56,8 @@ describe('Testing products API', () => {
 
   it('get products in a limit and sort', async () => {
     const response = await supertest(app)
-      .set('Cookie', 'authorization=amigo')
-      .get('/products?limit=3&sort=desc');
+      .get('/products?limit=3&sort=desc')
+      .set('Cookie', 'authorization=amigo');
     expect(response.status).toBe(200);
     console.log('get with querystring', response.body);
     expect(response.body).not.toStrictEqual([]);
@@ -43,8 +66,8 @@ describe('Testing products API', () => {
 
   it('post a product', async () => {
     const response = await supertest(app)
-      .set('Cookie', 'authorization=amigo')
       .post('/products')
+      .set('Cookie', 'authorization=amigo')
       .send({
         title: 'test',
         price: 13.5,
@@ -59,8 +82,8 @@ describe('Testing products API', () => {
 
   it('put a product', async () => {
     const response = await supertest(app)
-      .set('Cookie', 'authorization=amigo')
       .put('/products/1')
+      .set('Cookie', 'authorization=amigo')
       .send({
         title: 'test',
         price: 13.5,
@@ -75,8 +98,8 @@ describe('Testing products API', () => {
 
   it('patch a product', async () => {
     const response = await supertest(app)
-      .set('Cookie', 'authorization=amigo')
       .patch('/products/1')
+      .set('Cookie', 'authorization=amigo')
       .send({
         title: 'test',
         price: 13.5,
@@ -90,7 +113,7 @@ describe('Testing products API', () => {
   });
 
   it('delete a product', async () => {
-    const response = await supertest(app).set('Cookie', 'authorization=amigo').put('/products/1');
+    const response = await supertest(app).put('/products/1').set('Cookie', 'authorization=amigo');
     expect(response.status).toBe(200);
     console.log('delete', response.body);
     expect(response.body).toHaveProperty('id');

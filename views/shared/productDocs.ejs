@@ -133,18 +133,21 @@
         <button class="show-output btn btn-outline">Show output</button>
         <pre class="output-result"><code>
             <span class="c-comment">//output</span>
-            [
-            "electronics",
-            "jewelery",
-            "men's clothing",
-            "women's clothing"
-            ]
+            {
+                "categories": [
+                    { "id": 1, "name": "bars" },
+                    { "id": 2, "name": "chains" },
+                    { "id": 3, "name": "coins" },
+                    { "id": 4, "name": "earrings" },
+                    { "id": 5, "name": "rings" }
+                ]
+            }
         </code></pre>
 
 
 
         <h3 id="p-category">Get products in a specific category</h3>
-        <pre><code>fetch('<span class="c-api">https://shoppeapi.com/products/category/jewelery'</span>)
+        <pre><code>fetch('<span class="c-api">https://shoppeapi.com/products?category=chains'</span>)
             .then(res=>res.json())
             .then(json=>console.log(json))</code></pre>
         <p>
@@ -154,7 +157,7 @@
                     class="feather feather-zap">
                     <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
                 </svg>
-            </span>You can also use limit(Number) and sort(asc|desc) as a query string to get your ideal results
+            </span>Use query string <code>category</code> (required for this request), plus optional <code>limit</code> (number) and <code>sort</code> (asc|desc)
         </p>
         <button class="show-output btn btn-outline">Show output</button>
         <pre class="output-result"><code>
@@ -164,7 +167,7 @@
                 id:5,
                 title:'...',
                 price:'...',
-                category:'jewelery',
+                category:'chains',
                 description:'...',
                 image:'...'
             }
@@ -173,7 +176,7 @@
                 id:8,
                 title:'...',
                 price:'...',
-                category:'jewelery',
+                category:'chains',
                 description:'...',
                 image:'...'
             }
@@ -191,7 +194,7 @@
                     price: 13.5,
                     description: 'lorem ipsum set',
                     image: 'https://i.pravatar.cc',
-                    category: 'electronic'
+                    category: 'chains'
                 }
             )
         })
@@ -232,7 +235,7 @@
                     price: 13.5,
                     description: 'lorem ipsum set',
                     image: 'https://i.pravatar.cc',
-                    category: 'electronic'
+                    category: 'chains'
                 }
             )
         })
@@ -246,7 +249,7 @@
                         price: 13.5,
                         description: 'lorem ipsum set',
                         image: 'https://i.pravatar.cc',
-                        category: 'electronic'
+                        category: 'chains'
                     }
                 )
             })

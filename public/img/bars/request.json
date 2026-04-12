@@ -1,0 +1,751 @@
+{
+    "category": {
+        "id": 11,
+        "uuid": "0da5103e-92eb-11ef-9e45-0050560133fc",
+        "slug": "slitki",
+        "categoryType": "",
+        "name": "Слитки",
+        "title": "Слитки купить по выгодной цене от 13842 руб - каталог интернет-магазина UVI",
+        "description": "Слитки в интернет-магазине UVI по цене от 13842 руб. Доставка по Москве и России. Гарантия 6 месяцев. Реальные фото, отзывы и характеристики.",
+        "text": "",
+        "properties": []
+    },
+    "filters": [
+        {
+            "code": "price",
+            "docs": 5,
+            "isActive": true,
+            "isSelected": false,
+            "name": "Цена",
+            "range": {
+                "currentMax": 6019000,
+                "currentMin": 13842,
+                "filterMax": 0,
+                "filterMin": 0,
+                "max": 6019000,
+                "min": 13842,
+                "selectedMax": 6019000,
+                "selectedMin": 13842
+            },
+            "score": 0,
+            "sort": -200,
+            "tags": [
+                "price"
+            ],
+            "type": "numeric",
+            "values": []
+        },
+        {
+            "code": "shop",
+            "docs": 5,
+            "isActive": true,
+            "isSelected": false,
+            "name": "В наличии в магазинах",
+            "range": null,
+            "score": 0,
+            "sort": -90,
+            "tags": [
+                "shop"
+            ],
+            "type": "list",
+            "values": [
+                {
+                    "code": "0a9ce0d4-f651-11ee-9c27-005056013a74",
+                    "doc_count": 2,
+                    "isSelected": false,
+                    "key": "ТЦ \"Афимолл Сити\""
+                },
+                {
+                    "code": "70b5999b-2ad4-11ee-9c27-005056013a74",
+                    "doc_count": 2,
+                    "isSelected": false,
+                    "key": "ТРЦ \"Саларис\""
+                },
+                {
+                    "code": "cacd8e49-da06-11ed-9c23-005056013a74",
+                    "doc_count": 3,
+                    "isSelected": false,
+                    "key": "ТРЦ \"Щёлковский\""
+                },
+                {
+                    "code": "dd6a33f2-eabd-11ef-9c2c-005056013a74",
+                    "doc_count": 1,
+                    "isSelected": false,
+                    "key": "ТЦ \"Афи Галерея\""
+                },
+                {
+                    "code": "de07eb4c-7d3c-11ed-b823-0050568366ff",
+                    "doc_count": 2,
+                    "isSelected": false,
+                    "key": "ПВЗ Аутлет «Веткина»"
+                }
+            ]
+        },
+        {
+            "code": "collection-id",
+            "docs": 13,
+            "isActive": true,
+            "isSelected": false,
+            "name": "Коллекции",
+            "range": null,
+            "score": 0,
+            "sort": -50,
+            "tags": [
+                "collection"
+            ],
+            "type": "list",
+            "values": []
+        },
+        {
+            "code": "weight",
+            "docs": 5,
+            "isActive": true,
+            "isSelected": false,
+            "name": "Вес, грамм",
+            "range": {
+                "currentMax": 20,
+                "currentMin": 0,
+                "filterMax": 0,
+                "filterMin": 0,
+                "max": 20,
+                "min": 0,
+                "selectedMax": 20,
+                "selectedMin": 0
+            },
+            "score": 0,
+            "sort": -30,
+            "tags": [
+                "weight"
+            ],
+            "type": "numeric",
+            "values": []
+        },
+        {
+            "code": "f9bedf08-92d0-11ef-9e45-0050560133fc",
+            "docs": 5,
+            "isActive": true,
+            "isSelected": false,
+            "name": "Материал",
+            "range": null,
+            "score": 0,
+            "sort": 1,
+            "tags": [],
+            "type": "list",
+            "values": [
+                {
+                    "code": "2",
+                    "doc_count": 5,
+                    "isSelected": false,
+                    "key": "Золото"
+                }
+            ]
+        },
+        {
+            "code": "83a966f3-92d5-11ef-9e45-0050560133fc",
+            "docs": 5,
+            "isActive": true,
+            "isSelected": false,
+            "name": "Проба",
+            "range": null,
+            "score": 0,
+            "sort": 5,
+            "tags": [],
+            "type": "list",
+            "values": [
+                {
+                    "code": "575",
+                    "doc_count": 5,
+                    "isSelected": false,
+                    "key": "999"
+                }
+            ]
+        }
+    ],
+    "products": {
+        "items": [
+            {
+                "id": 48158,
+                "category": {
+                    "id": 11,
+                    "uuid": "0da5103e-92eb-11ef-9e45-0050560133fc",
+                    "slug": "slitki",
+                    "categoryType": "",
+                    "name": "Слитки",
+                    "title": "",
+                    "description": "",
+                    "text": "",
+                    "properties": []
+                },
+                "badge": [
+                    "Люкс"
+                ],
+                "active": true,
+                "isBlocked": false,
+                "uuid": "72b6b917-6e98-419d-bab4-4cc7e721a399",
+                "isBestseller": false,
+                "isNew": false,
+                "name": "Слиток золота мерный 999 пробы, 10 г",
+                "slug": "slitok-zolota-mernyj-999-proby-10-g-7700007",
+                "vendorCode": "7700007",
+                "isFavorite": false,
+                "luxe": true,
+                "description": "Слиток золота мерный 999 пробы, 10 г. Содержание чистого золота в слитке 99,9%. Слитки изготовлены из драгоценных металлов российскими аффинажными заводами в соответствии с действующим государственным стандартом – ГОСТ 51572-2020. Каждый слиток имеет четкую и разборчивую маркировку с индивидуальным номером, наименованием металла, пробой, номинальной массой и товарным знаком. Прилагается сертификат производителя. Каждый слиток запечатан в индивидуальную заводскую упаковку, что гарантирует его сохранность и целостность при последующей транспортировке. Производитель ОАО «Красцветмет». Изображение на сайте может отличаться от оригинала продукции.",
+                "avgWeight": 10,
+                "images": [
+                    {
+                        "id": "-1",
+                        "image_url_lg": "https://cdn.tvuvi.ru/Production/7700007-1.jpg",
+                        "image_url_md": "https://cdn.tvuvi.ru/Production/7700007-1.jpg?width=768\u0026quality=80",
+                        "image_url_sm": "https://cdn.tvuvi.ru/Production/7700007-1.jpg?width=576\u0026quality=65"
+                    },
+                    {
+                        "id": "-1",
+                        "image_url_lg": "https://cdn.tvuvi.ru/Production/7700007-2.jpg",
+                        "image_url_md": "https://cdn.tvuvi.ru/Production/7700007-2.jpg?width=768\u0026quality=80",
+                        "image_url_sm": "https://cdn.tvuvi.ru/Production/7700007-2.jpg?width=576\u0026quality=65"
+                    },
+                    {
+                        "id": "-1",
+                        "image_url_lg": "https://cdn.tvuvi.ru/Production/7700007-3.jpg",
+                        "image_url_md": "https://cdn.tvuvi.ru/Production/7700007-3.jpg?width=768\u0026quality=80",
+                        "image_url_sm": "https://cdn.tvuvi.ru/Production/7700007-3.jpg?width=576\u0026quality=65"
+                    },
+                    {
+                        "id": "-1",
+                        "image_url_lg": "https://cdn.tvuvi.ru/Production/7700007-4.jpg",
+                        "image_url_md": "https://cdn.tvuvi.ru/Production/7700007-4.jpg?width=768\u0026quality=80",
+                        "image_url_sm": "https://cdn.tvuvi.ru/Production/7700007-4.jpg?width=576\u0026quality=65"
+                    },
+                    {
+                        "id": "-1",
+                        "image_url_lg": "https://cdn.tvuvi.ru/Production/7700007-5.jpg",
+                        "image_url_md": "https://cdn.tvuvi.ru/Production/7700007-5.jpg?width=768\u0026quality=80",
+                        "image_url_sm": "https://cdn.tvuvi.ru/Production/7700007-5.jpg?width=576\u0026quality=65"
+                    },
+                    {
+                        "id": "-1",
+                        "image_url_lg": "https://cdn.tvuvi.ru/Production/7700007-6.jpg",
+                        "image_url_md": "https://cdn.tvuvi.ru/Production/7700007-6.jpg?width=768\u0026quality=80",
+                        "image_url_sm": "https://cdn.tvuvi.ru/Production/7700007-6.jpg?width=576\u0026quality=65"
+                    },
+                    {
+                        "id": "-1",
+                        "image_url_lg": "https://cdn.tvuvi.ru/Production/7700007-7.jpg",
+                        "image_url_md": "https://cdn.tvuvi.ru/Production/7700007-7.jpg?width=768\u0026quality=80",
+                        "image_url_sm": "https://cdn.tvuvi.ru/Production/7700007-7.jpg?width=576\u0026quality=65"
+                    },
+                    {
+                        "id": "-1",
+                        "image_url_lg": "https://cdn.tvuvi.ru/Production/7700007-8.jpg",
+                        "image_url_md": "https://cdn.tvuvi.ru/Production/7700007-8.jpg?width=768\u0026quality=80",
+                        "image_url_sm": "https://cdn.tvuvi.ru/Production/7700007-8.jpg?width=576\u0026quality=65"
+                    },
+                    {
+                        "id": "-1",
+                        "image_url_lg": "https://cdn.tvuvi.ru/Production/7700007-9.jpg",
+                        "image_url_md": "https://cdn.tvuvi.ru/Production/7700007-9.jpg?width=768\u0026quality=80",
+                        "image_url_sm": "https://cdn.tvuvi.ru/Production/7700007-9.jpg?width=576\u0026quality=65"
+                    }
+                ],
+                "price": {
+                    "price": 126959,
+                    "minorPrice": 12695900,
+                    "currency": "RUB"
+                },
+                "oldPrice": null,
+                "productOffers": [
+                    {
+                        "id": 87275,
+                        "uuid": "3ca31f86-f6ca-49ba-b8ed-b7eb9cdc244a",
+                        "productUuid": "72b6b917-6e98-419d-bab4-4cc7e721a399",
+                        "productId": 48158,
+                        "weight": 10,
+                        "size": "",
+                        "inStock": false,
+                        "characteristicId": "",
+                        "tradeOffer": {
+                            "quantityRetail": 5,
+                            "prices": [
+                                {
+                                    "price": 126959,
+                                    "minorPrice": 12695900,
+                                    "type": "site",
+                                    "sort": 100,
+                                    "currency": "RUB"
+                                }
+                            ]
+                        },
+                        "stocks": []
+                    }
+                ],
+                "sort": 0,
+                "liveSlot": 0
+            },
+            {
+                "id": 44355,
+                "category": {
+                    "id": 11,
+                    "uuid": "0da5103e-92eb-11ef-9e45-0050560133fc",
+                    "slug": "slitki",
+                    "categoryType": "",
+                    "name": "Слитки",
+                    "title": "",
+                    "description": "",
+                    "text": "",
+                    "properties": []
+                },
+                "badge": [],
+                "active": true,
+                "isBlocked": false,
+                "uuid": "19aa1e37-b37f-4611-b58f-55b2c86dca37",
+                "isBestseller": false,
+                "isNew": false,
+                "name": "Слиток золота мерный 999 пробы, 1 г",
+                "slug": "slitok-zolota-mernyj-999-proby-1-g-7700005",
+                "vendorCode": "7700005",
+                "isFavorite": false,
+                "luxe": false,
+                "description": "Слиток золота мерный 999 пробы, 1 г. Содержание чистого золота в слитке 99,9%. Слитки изготовлены из драгоценных металлов российскими аффинажными заводами в соответствии с действующим государственным стандартом – ГОСТ 51572-2020. Каждый слиток имеет четкую и разборчивую маркировку с индивидуальным номером, наименованием металла, пробой, номинальной массой и товарным знаком. Прилагается сертификат производителя. Каждый слиток запечатан в индивидуальную заводскую упаковку, что гарантирует его сохранность и целостность при последующей транспортировке. Производитель ОАО «Красцветмет». Изображение на сайте может отличаться от оригинала продукции.",
+                "avgWeight": 1,
+                "images": [
+                    {
+                        "id": "-1",
+                        "image_url_lg": "https://cdn.tvuvi.ru/Production/7700005-1.jpg",
+                        "image_url_md": "https://cdn.tvuvi.ru/Production/7700005-1.jpg?width=768\u0026quality=80",
+                        "image_url_sm": "https://cdn.tvuvi.ru/Production/7700005-1.jpg?width=576\u0026quality=65"
+                    },
+                    {
+                        "id": "-1",
+                        "image_url_lg": "https://cdn.tvuvi.ru/Production/7700005-2.jpg",
+                        "image_url_md": "https://cdn.tvuvi.ru/Production/7700005-2.jpg?width=768\u0026quality=80",
+                        "image_url_sm": "https://cdn.tvuvi.ru/Production/7700005-2.jpg?width=576\u0026quality=65"
+                    },
+                    {
+                        "id": "-1",
+                        "image_url_lg": "https://cdn.tvuvi.ru/Production/7700005-3.jpg",
+                        "image_url_md": "https://cdn.tvuvi.ru/Production/7700005-3.jpg?width=768\u0026quality=80",
+                        "image_url_sm": "https://cdn.tvuvi.ru/Production/7700005-3.jpg?width=576\u0026quality=65"
+                    },
+                    {
+                        "id": "-1",
+                        "image_url_lg": "https://cdn.tvuvi.ru/Production/7700005-4.jpg",
+                        "image_url_md": "https://cdn.tvuvi.ru/Production/7700005-4.jpg?width=768\u0026quality=80",
+                        "image_url_sm": "https://cdn.tvuvi.ru/Production/7700005-4.jpg?width=576\u0026quality=65"
+                    },
+                    {
+                        "id": "-1",
+                        "image_url_lg": "https://cdn.tvuvi.ru/Production/7700005-5.jpg",
+                        "image_url_md": "https://cdn.tvuvi.ru/Production/7700005-5.jpg?width=768\u0026quality=80",
+                        "image_url_sm": "https://cdn.tvuvi.ru/Production/7700005-5.jpg?width=576\u0026quality=65"
+                    },
+                    {
+                        "id": "-1",
+                        "image_url_lg": "https://cdn.tvuvi.ru/Production/7700005-6.jpg",
+                        "image_url_md": "https://cdn.tvuvi.ru/Production/7700005-6.jpg?width=768\u0026quality=80",
+                        "image_url_sm": "https://cdn.tvuvi.ru/Production/7700005-6.jpg?width=576\u0026quality=65"
+                    },
+                    {
+                        "id": "-1",
+                        "image_url_lg": "https://cdn.tvuvi.ru/Production/7700005-7.jpg",
+                        "image_url_md": "https://cdn.tvuvi.ru/Production/7700005-7.jpg?width=768\u0026quality=80",
+                        "image_url_sm": "https://cdn.tvuvi.ru/Production/7700005-7.jpg?width=576\u0026quality=65"
+                    },
+                    {
+                        "id": "-1",
+                        "image_url_lg": "https://cdn.tvuvi.ru/Production/7700005-8.jpg",
+                        "image_url_md": "https://cdn.tvuvi.ru/Production/7700005-8.jpg?width=768\u0026quality=80",
+                        "image_url_sm": "https://cdn.tvuvi.ru/Production/7700005-8.jpg?width=576\u0026quality=65"
+                    },
+                    {
+                        "id": "-1",
+                        "image_url_lg": "https://cdn.tvuvi.ru/Production/7700005-9.jpg",
+                        "image_url_md": "https://cdn.tvuvi.ru/Production/7700005-9.jpg?width=768\u0026quality=80",
+                        "image_url_sm": "https://cdn.tvuvi.ru/Production/7700005-9.jpg?width=576\u0026quality=65"
+                    }
+                ],
+                "price": {
+                    "price": 13842,
+                    "minorPrice": 1384200,
+                    "currency": "RUB"
+                },
+                "oldPrice": null,
+                "productOffers": [
+                    {
+                        "id": 79844,
+                        "uuid": "d9a21f97-3f0d-443c-9df4-049536c39705",
+                        "productUuid": "19aa1e37-b37f-4611-b58f-55b2c86dca37",
+                        "productId": 44355,
+                        "weight": 1,
+                        "size": "",
+                        "inStock": false,
+                        "characteristicId": "",
+                        "tradeOffer": {
+                            "quantityRetail": 10,
+                            "prices": [
+                                {
+                                    "price": 13842,
+                                    "minorPrice": 1384200,
+                                    "type": "site",
+                                    "sort": 100,
+                                    "currency": "RUB"
+                                }
+                            ]
+                        },
+                        "stocks": []
+                    }
+                ],
+                "sort": 0,
+                "liveSlot": 0
+            },
+            {
+                "id": 31193,
+                "category": {
+                    "id": 11,
+                    "uuid": "0da5103e-92eb-11ef-9e45-0050560133fc",
+                    "slug": "slitki",
+                    "categoryType": "",
+                    "name": "Слитки",
+                    "title": "",
+                    "description": "",
+                    "text": "",
+                    "properties": []
+                },
+                "badge": [],
+                "active": true,
+                "isBlocked": false,
+                "uuid": "2f74e98d-1ac9-4acc-a2e0-70e802633f4c",
+                "isBestseller": false,
+                "isNew": false,
+                "name": "Слиток золота мерный 999 пробы, 5 г",
+                "slug": "slitok-zolota-mernyj-999-proby-5-g-7700006",
+                "vendorCode": "7700006",
+                "isFavorite": false,
+                "luxe": false,
+                "description": "Слиток золота мерный 999 пробы, 5 г. Содержание чистого золота в слитке 99,9%. Слитки изготовлены из драгоценных металлов российскими аффинажными заводами в соответствии с действующим государственным стандартом – ГОСТ 51572-2020. Каждый слиток имеет четкую и разборчивую маркировку с индивидуальным номером, наименованием металла, пробой, номинальной массой и товарным знаком. Прилагается сертификат производителя. Каждый слиток запечатан в индивидуальную заводскую упаковку, что гарантирует его сохранность и целостность при последующей транспортировке. Производитель ОАО «Красцветмет». Изображение на сайте может отличаться от оригинала продукции.",
+                "avgWeight": 5,
+                "images": [
+                    {
+                        "id": "-1",
+                        "image_url_lg": "https://cdn.tvuvi.ru/Production/7700006-1.jpg",
+                        "image_url_md": "https://cdn.tvuvi.ru/Production/7700006-1.jpg?width=768\u0026quality=80",
+                        "image_url_sm": "https://cdn.tvuvi.ru/Production/7700006-1.jpg?width=576\u0026quality=65"
+                    },
+                    {
+                        "id": "-1",
+                        "image_url_lg": "https://cdn.tvuvi.ru/Production/7700006-2.jpg",
+                        "image_url_md": "https://cdn.tvuvi.ru/Production/7700006-2.jpg?width=768\u0026quality=80",
+                        "image_url_sm": "https://cdn.tvuvi.ru/Production/7700006-2.jpg?width=576\u0026quality=65"
+                    },
+                    {
+                        "id": "-1",
+                        "image_url_lg": "https://cdn.tvuvi.ru/Production/7700006-3.jpg",
+                        "image_url_md": "https://cdn.tvuvi.ru/Production/7700006-3.jpg?width=768\u0026quality=80",
+                        "image_url_sm": "https://cdn.tvuvi.ru/Production/7700006-3.jpg?width=576\u0026quality=65"
+                    },
+                    {
+                        "id": "-1",
+                        "image_url_lg": "https://cdn.tvuvi.ru/Production/7700006-4.jpg",
+                        "image_url_md": "https://cdn.tvuvi.ru/Production/7700006-4.jpg?width=768\u0026quality=80",
+                        "image_url_sm": "https://cdn.tvuvi.ru/Production/7700006-4.jpg?width=576\u0026quality=65"
+                    },
+                    {
+                        "id": "-1",
+                        "image_url_lg": "https://cdn.tvuvi.ru/Production/7700006-5.jpg",
+                        "image_url_md": "https://cdn.tvuvi.ru/Production/7700006-5.jpg?width=768\u0026quality=80",
+                        "image_url_sm": "https://cdn.tvuvi.ru/Production/7700006-5.jpg?width=576\u0026quality=65"
+                    },
+                    {
+                        "id": "-1",
+                        "image_url_lg": "https://cdn.tvuvi.ru/Production/7700006-6.jpg",
+                        "image_url_md": "https://cdn.tvuvi.ru/Production/7700006-6.jpg?width=768\u0026quality=80",
+                        "image_url_sm": "https://cdn.tvuvi.ru/Production/7700006-6.jpg?width=576\u0026quality=65"
+                    },
+                    {
+                        "id": "-1",
+                        "image_url_lg": "https://cdn.tvuvi.ru/Production/7700006-7.jpg",
+                        "image_url_md": "https://cdn.tvuvi.ru/Production/7700006-7.jpg?width=768\u0026quality=80",
+                        "image_url_sm": "https://cdn.tvuvi.ru/Production/7700006-7.jpg?width=576\u0026quality=65"
+                    },
+                    {
+                        "id": "-1",
+                        "image_url_lg": "https://cdn.tvuvi.ru/Production/7700006-8.jpg",
+                        "image_url_md": "https://cdn.tvuvi.ru/Production/7700006-8.jpg?width=768\u0026quality=80",
+                        "image_url_sm": "https://cdn.tvuvi.ru/Production/7700006-8.jpg?width=576\u0026quality=65"
+                    },
+                    {
+                        "id": "-1",
+                        "image_url_lg": "https://cdn.tvuvi.ru/Production/7700006-9.jpg",
+                        "image_url_md": "https://cdn.tvuvi.ru/Production/7700006-9.jpg?width=768\u0026quality=80",
+                        "image_url_sm": "https://cdn.tvuvi.ru/Production/7700006-9.jpg?width=576\u0026quality=65"
+                    }
+                ],
+                "price": {
+                    "price": 64606,
+                    "minorPrice": 6460600,
+                    "currency": "RUB"
+                },
+                "oldPrice": null,
+                "productOffers": [
+                    {
+                        "id": 52201,
+                        "uuid": "2ee1c057-e069-4120-b2ef-864e1fac99a1",
+                        "productUuid": "2f74e98d-1ac9-4acc-a2e0-70e802633f4c",
+                        "productId": 31193,
+                        "weight": 5,
+                        "size": "",
+                        "inStock": false,
+                        "characteristicId": "",
+                        "tradeOffer": {
+                            "quantityRetail": 9,
+                            "prices": [
+                                {
+                                    "price": 64606,
+                                    "minorPrice": 6460600,
+                                    "type": "site",
+                                    "sort": 100,
+                                    "currency": "RUB"
+                                }
+                            ]
+                        },
+                        "stocks": []
+                    }
+                ],
+                "sort": 0,
+                "liveSlot": 0
+            },
+            {
+                "id": 48865,
+                "category": {
+                    "id": 11,
+                    "uuid": "0da5103e-92eb-11ef-9e45-0050560133fc",
+                    "slug": "slitki",
+                    "categoryType": "",
+                    "name": "Слитки",
+                    "title": "",
+                    "description": "",
+                    "text": "",
+                    "properties": []
+                },
+                "badge": [
+                    "Люкс"
+                ],
+                "active": true,
+                "isBlocked": false,
+                "uuid": "29ab0a2f-2c18-437d-bbbe-2c2265e5e2d3",
+                "isBestseller": false,
+                "isNew": false,
+                "name": "Слиток золота мерный 999 пробы, 20 г",
+                "slug": "slitok-zolota-mernyj-999-proby-20-g-7700008",
+                "vendorCode": "7700008",
+                "isFavorite": false,
+                "luxe": true,
+                "description": "Слиток золота мерный 999 пробы, 20 г. Содержание чистого золота в слитке 99,9%. Слитки изготовлены из драгоценных металлов российскими аффинажными заводами в соответствии с действующим государственным стандартом – ГОСТ 51572-2020. Каждый слиток имеет четкую и разборчивую маркировку с индивидуальным номером, наименованием металла, пробой, номинальной массой и товарным знаком. Прилагается сертификат производителя. Каждый слиток запечатан в индивидуальную заводскую упаковку, что гарантирует его сохранность и целостность при последующей транспортировке. Производитель ОАО «Красцветмет». Изображение на сайте может отличаться от оригинала продукции.",
+                "avgWeight": 20,
+                "images": [
+                    {
+                        "id": "-1",
+                        "image_url_lg": "https://cdn.tvuvi.ru/Production/7700008-1.jpg",
+                        "image_url_md": "https://cdn.tvuvi.ru/Production/7700008-1.jpg?width=768\u0026quality=80",
+                        "image_url_sm": "https://cdn.tvuvi.ru/Production/7700008-1.jpg?width=576\u0026quality=65"
+                    },
+                    {
+                        "id": "-1",
+                        "image_url_lg": "https://cdn.tvuvi.ru/Production/7700008-2.jpg",
+                        "image_url_md": "https://cdn.tvuvi.ru/Production/7700008-2.jpg?width=768\u0026quality=80",
+                        "image_url_sm": "https://cdn.tvuvi.ru/Production/7700008-2.jpg?width=576\u0026quality=65"
+                    },
+                    {
+                        "id": "-1",
+                        "image_url_lg": "https://cdn.tvuvi.ru/Production/7700008-3.jpg",
+                        "image_url_md": "https://cdn.tvuvi.ru/Production/7700008-3.jpg?width=768\u0026quality=80",
+                        "image_url_sm": "https://cdn.tvuvi.ru/Production/7700008-3.jpg?width=576\u0026quality=65"
+                    },
+                    {
+                        "id": "-1",
+                        "image_url_lg": "https://cdn.tvuvi.ru/Production/7700008-4.jpg",
+                        "image_url_md": "https://cdn.tvuvi.ru/Production/7700008-4.jpg?width=768\u0026quality=80",
+                        "image_url_sm": "https://cdn.tvuvi.ru/Production/7700008-4.jpg?width=576\u0026quality=65"
+                    },
+                    {
+                        "id": "-1",
+                        "image_url_lg": "https://cdn.tvuvi.ru/Production/7700008-5.jpg",
+                        "image_url_md": "https://cdn.tvuvi.ru/Production/7700008-5.jpg?width=768\u0026quality=80",
+                        "image_url_sm": "https://cdn.tvuvi.ru/Production/7700008-5.jpg?width=576\u0026quality=65"
+                    },
+                    {
+                        "id": "-1",
+                        "image_url_lg": "https://cdn.tvuvi.ru/Production/7700008-6.jpg",
+                        "image_url_md": "https://cdn.tvuvi.ru/Production/7700008-6.jpg?width=768\u0026quality=80",
+                        "image_url_sm": "https://cdn.tvuvi.ru/Production/7700008-6.jpg?width=576\u0026quality=65"
+                    },
+                    {
+                        "id": "-1",
+                        "image_url_lg": "https://cdn.tvuvi.ru/Production/7700008-7.jpg",
+                        "image_url_md": "https://cdn.tvuvi.ru/Production/7700008-7.jpg?width=768\u0026quality=80",
+                        "image_url_sm": "https://cdn.tvuvi.ru/Production/7700008-7.jpg?width=576\u0026quality=65"
+                    },
+                    {
+                        "id": "-1",
+                        "image_url_lg": "https://cdn.tvuvi.ru/Production/7700008-8.jpg",
+                        "image_url_md": "https://cdn.tvuvi.ru/Production/7700008-8.jpg?width=768\u0026quality=80",
+                        "image_url_sm": "https://cdn.tvuvi.ru/Production/7700008-8.jpg?width=576\u0026quality=65"
+                    },
+                    {
+                        "id": "-1",
+                        "image_url_lg": "https://cdn.tvuvi.ru/Production/7700008-9.jpg",
+                        "image_url_md": "https://cdn.tvuvi.ru/Production/7700008-9.jpg?width=768\u0026quality=80",
+                        "image_url_sm": "https://cdn.tvuvi.ru/Production/7700008-9.jpg?width=576\u0026quality=65"
+                    }
+                ],
+                "price": {
+                    "price": 249955,
+                    "minorPrice": 24995500,
+                    "currency": "RUB"
+                },
+                "oldPrice": null,
+                "productOffers": [
+                    {
+                        "id": 88772,
+                        "uuid": "11359966-59f5-4560-8781-f445893adcde",
+                        "productUuid": "29ab0a2f-2c18-437d-bbbe-2c2265e5e2d3",
+                        "productId": 48865,
+                        "weight": 20,
+                        "size": "",
+                        "inStock": false,
+                        "characteristicId": "",
+                        "tradeOffer": {
+                            "quantityRetail": 2,
+                            "prices": [
+                                {
+                                    "price": 249955,
+                                    "minorPrice": 24995500,
+                                    "type": "site",
+                                    "sort": 100,
+                                    "currency": "RUB"
+                                }
+                            ]
+                        },
+                        "stocks": []
+                    }
+                ],
+                "sort": 0,
+                "liveSlot": 0
+            },
+            {
+                "id": 308991,
+                "category": {
+                    "id": 11,
+                    "uuid": "0da5103e-92eb-11ef-9e45-0050560133fc",
+                    "slug": "slitki",
+                    "categoryType": "",
+                    "name": "Слитки",
+                    "title": "",
+                    "description": "",
+                    "text": "",
+                    "properties": []
+                },
+                "badge": [
+                    "Новинка"
+                ],
+                "active": true,
+                "isBlocked": false,
+                "uuid": "8dbac533-aa4a-4a65-a29c-31900d9e9063",
+                "isBestseller": false,
+                "isNew": true,
+                "name": "Слиток золота мерный 999 пробы, 500 г",
+                "slug": "slitok-zolota-mernyj-999-proby-500-g-12519-000008",
+                "vendorCode": "12519-000008",
+                "isFavorite": false,
+                "luxe": false,
+                "description": "Слиток золота мерный 999 пробы, 500 г. Содержание чистого золота в слитке 99,9%. Слитки изготовлены из драгоценных металлов российскими аффинажными заводами в соответствии с действующим государственным стандартом – ГОСТ 51572-2020. Каждый слиток имеет четкую и разборчивую маркировку с индивидуальным номером, наименованием металла, пробой, номинальной массой и товарным знаком. Прилагается сертификат производителя. Каждый слиток запечатан в индивидуальную заводскую упаковку, что гарантирует его сохранность и целостность при последующей транспортировке. Производитель ОАО «Красцветмет». Изображение на сайте может отличаться от оригинала продукции.",
+                "avgWeight": 0,
+                "images": [
+                    {
+                        "id": "-1",
+                        "image_url_lg": "https://cdn.tvuvi.ru/Production/12519-000008-1.jpg",
+                        "image_url_md": "https://cdn.tvuvi.ru/Production/12519-000008-1.jpg?width=768\u0026quality=80",
+                        "image_url_sm": "https://cdn.tvuvi.ru/Production/12519-000008-1.jpg?width=576\u0026quality=65"
+                    },
+                    {
+                        "id": "-1",
+                        "image_url_lg": "https://cdn.tvuvi.ru/Production/12519-000008-2.jpg",
+                        "image_url_md": "https://cdn.tvuvi.ru/Production/12519-000008-2.jpg?width=768\u0026quality=80",
+                        "image_url_sm": "https://cdn.tvuvi.ru/Production/12519-000008-2.jpg?width=576\u0026quality=65"
+                    },
+                    {
+                        "id": "-1",
+                        "image_url_lg": "https://cdn.tvuvi.ru/Production/12519-000008-3.jpg",
+                        "image_url_md": "https://cdn.tvuvi.ru/Production/12519-000008-3.jpg?width=768\u0026quality=80",
+                        "image_url_sm": "https://cdn.tvuvi.ru/Production/12519-000008-3.jpg?width=576\u0026quality=65"
+                    },
+                    {
+                        "id": "-1",
+                        "image_url_lg": "https://cdn.tvuvi.ru/Production/12519-000008-4.jpg",
+                        "image_url_md": "https://cdn.tvuvi.ru/Production/12519-000008-4.jpg?width=768\u0026quality=80",
+                        "image_url_sm": "https://cdn.tvuvi.ru/Production/12519-000008-4.jpg?width=576\u0026quality=65"
+                    },
+                    {
+                        "id": "-1",
+                        "image_url_lg": "https://cdn.tvuvi.ru/Production/12519-000008-5.jpg",
+                        "image_url_md": "https://cdn.tvuvi.ru/Production/12519-000008-5.jpg?width=768\u0026quality=80",
+                        "image_url_sm": "https://cdn.tvuvi.ru/Production/12519-000008-5.jpg?width=576\u0026quality=65"
+                    },
+                    {
+                        "id": "-1",
+                        "image_url_lg": "https://cdn.tvuvi.ru/Production/12519-000008-6.jpg",
+                        "image_url_md": "https://cdn.tvuvi.ru/Production/12519-000008-6.jpg?width=768\u0026quality=80",
+                        "image_url_sm": "https://cdn.tvuvi.ru/Production/12519-000008-6.jpg?width=576\u0026quality=65"
+                    },
+                    {
+                        "id": "-1",
+                        "image_url_lg": "https://cdn.tvuvi.ru/Production/12519-000008-7.jpg",
+                        "image_url_md": "https://cdn.tvuvi.ru/Production/12519-000008-7.jpg?width=768\u0026quality=80",
+                        "image_url_sm": "https://cdn.tvuvi.ru/Production/12519-000008-7.jpg?width=576\u0026quality=65"
+                    },
+                    {
+                        "id": "-1",
+                        "image_url_lg": "https://cdn.tvuvi.ru/Production/12519-000008-8.jpg",
+                        "image_url_md": "https://cdn.tvuvi.ru/Production/12519-000008-8.jpg?width=768\u0026quality=80",
+                        "image_url_sm": "https://cdn.tvuvi.ru/Production/12519-000008-8.jpg?width=576\u0026quality=65"
+                    }
+                ],
+                "price": {
+                    "price": 6019000,
+                    "minorPrice": 601900000,
+                    "currency": "RUB"
+                },
+                "oldPrice": null,
+                "productOffers": [
+                    {
+                        "id": 195332,
+                        "uuid": "beaf50c1-7540-4c6a-b060-1259428499b4",
+                        "productUuid": "8dbac533-aa4a-4a65-a29c-31900d9e9063",
+                        "productId": 308991,
+                        "weight": 0,
+                        "size": "",
+                        "inStock": false,
+                        "characteristicId": "",
+                        "tradeOffer": {
+                            "quantityRetail": 12,
+                            "prices": [
+                                {
+                                    "price": 6019000,
+                                    "minorPrice": 601900000,
+                                    "type": "site",
+                                    "sort": 100,
+                                    "currency": "RUB"
+                                }
+                            ]
+                        },
+                        "stocks": []
+                    }
+                ],
+                "sort": 0,
+                "liveSlot": 0
+            }
+        ],
+        "total": 5
+    },
+    "seoCategories": [],
+    "collection": null
+}

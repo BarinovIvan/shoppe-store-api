@@ -11,7 +11,9 @@
     "lint:fix": "eslint . --fix",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "check": "eslint . && prettier --check ."
+    "check": "eslint . && prettier --check .",
+    "seed:products": "node scripts/seedProductsFromImg.js",
+    "seed:products:dump": "node scripts/seedProductsFromImg.js --dump && prettier --write data/products.seed.json"
   },
   "author": "",
   "license": "ISC",
@@ -26,6 +28,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.15.0",
+    "@stylistic/eslint-plugin": "^5.10.0",
     "ejs": "^3.1.6",
     "eslint": "^9.15.0",
     "eslint-config-prettier": "^9.1.0",

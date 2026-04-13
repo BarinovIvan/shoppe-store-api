@@ -57,11 +57,6 @@ module.exports = (req, res, next) => {
 
   res.status(403).json({
     message:
-      'Доступ запрещён: Cookie ' +
-      nameLower +
-      '=' +
-      expected +
-      ' или заголовок Authorization: ' +
-      expected,
+      'Доступ запрещён: не передана кука/заголовок авторизации'       
   });
 };

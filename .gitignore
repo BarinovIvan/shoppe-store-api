@@ -4,3 +4,4 @@ package-lock.json
 .vscode
 Procfile
 mongo_data
+.env

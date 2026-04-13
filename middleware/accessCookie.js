@@ -22,13 +22,15 @@ function parseCookies(header) {
   return out;
 }
 
+const PUBLIC_DOCUMENTATION_PATHS = new Set(['/', '/docs', '/docs/']);
+
 module.exports = (req, res, next) => {
   if (req.method === 'OPTIONS') {
     next();
     return;
   }
 
-  if (req.path === '/docs') {
+  if (PUBLIC_DOCUMENTATION_PATHS.has(req.path)) {
     next();
     return;
   }

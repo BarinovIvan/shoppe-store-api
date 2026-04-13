@@ -15,7 +15,7 @@ const authRoute = require('./routes/auth');
 const accessCookie = require('./middleware/accessCookie');
 
 const app = express();
-const port = process.env.PORT || 6400;
+const port = Number(process.env.PORT) || 80;
 
 app.use(cors());
 app.use(express.static(path.join(__dirname, '/public')));
@@ -36,14 +36,15 @@ module.exports = app;
 if (require.main === module) {
   mongoose.set('useFindAndModify', false);
   mongoose.set('useUnifiedTopology', true);
+  app.listen(port, '0.0.0.0', () => {
+    console.log('listening', port);
+  });
   mongoose
     .connect(process.env.DATABASE_URL, { useNewUrlParser: true })
     .then(() => {
-      app.listen(port, () => {
-        console.log('connect');
-      });
+      console.log('mongodb ok');
     })
     .catch((err) => {
-      console.log(err);
+      console.error('mongodb', err);
     });
 }

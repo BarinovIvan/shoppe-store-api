@@ -13,6 +13,8 @@ const cartRoute = require('./routes/cart');
 const userRoute = require('./routes/user');
 const authRoute = require('./routes/auth');
 const accessCookie = require('./middleware/accessCookie');
+const Product = require('./model/product');
+const seedProductsFromJson = require('./seed/seedProductsFromJson');
 
 const app = express();
 const port = Number(process.env.PORT) || 80;
@@ -36,15 +38,23 @@ module.exports = app;
 if (require.main === module) {
   mongoose.set('useFindAndModify', false);
   mongoose.set('useUnifiedTopology', true);
-  app.listen(port, '0.0.0.0', () => {
-    console.log('listening', port);
-  });
   mongoose
     .connect(process.env.DATABASE_URL, { useNewUrlParser: true })
-    .then(() => {
+    .then(async () => {
       console.log('mongodb ok');
+      try {
+        if ((await Product.countDocuments()) === 0) {
+          await seedProductsFromJson();
+        }
+      } catch (err) {
+        console.error('seed products', err);
+      }
+      app.listen(port, '0.0.0.0', () => {
+        console.log('listening', port);
+      });
     })
     .catch((err) => {
       console.error('mongodb', err);
+      process.exit(1);
     });
 }

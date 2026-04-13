@@ -13,7 +13,6 @@ const cartRoute = require('./routes/cart');
 const userRoute = require('./routes/user');
 const authRoute = require('./routes/auth');
 const accessCookie = require('./middleware/accessCookie');
-const Product = require('./model/product');
 const seedProductsFromJson = require('./seed/seedProductsFromJson');
 
 const app = express();
@@ -43,9 +42,7 @@ if (require.main === module) {
     .then(async () => {
       console.log('mongodb ok');
       try {
-        if ((await Product.countDocuments()) === 0) {
-          await seedProductsFromJson();
-        }
+        await seedProductsFromJson();
       } catch (err) {
         console.error('seed products', err);
       }

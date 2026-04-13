@@ -10,7 +10,7 @@ function applyPublicUrlToImage(image, publicUrl) {
   if (!publicUrl || !image) {
     return image;
   }
-  
+
   try {
     const u = new URL(image);
     return `${normalizeBase(publicUrl)}${u.pathname}${u.search || ''}`;
@@ -30,6 +30,7 @@ module.exports = async function seedProductsFromJson() {
     image: applyPublicUrlToImage(item.image, publicUrl),
   }));
 
+  await Product.deleteMany({});
   await Product.insertMany(docs);
 
   console.log('products seeded', docs.length);

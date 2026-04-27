@@ -16,7 +16,7 @@ const accessCookie = require('./middleware/accessCookie');
 const seedProductsFromJson = require('./seed/seedProductsFromJson');
 
 const app = express();
-const port = Number(process.env.PORT) || 80;
+const port = Number(process.env.PORT) || 3000;
 
 app.use(cors());
 app.use(express.static(path.join(__dirname, '/public')));
